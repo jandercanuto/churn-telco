@@ -1,0 +1,25 @@
+# Ambiente virtual — pesado, qualquer um recria com requirements.txt
+venv/
+
+# Dados — não versionamos dados brutos nem processados
+data/
+
+# Modelos treinados — grandes e reproductíveis pelo pipeline
+models/
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Configurações do VS Code
+.vscode/
+
+# Arquivos de ambiente com senhas
+.env
+
+# Checkpoints do Jupyter
+.ipynb_checkpoints/
+
+# Arquivos de sistema
+.DS_Store

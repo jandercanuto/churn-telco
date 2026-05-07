@@ -1,0 +1,8 @@
+pandas==3.0.2          # manipulação e análise de dados em DataFrames; leitura, limpeza e transformação dos dados de churn
+numpy==2.4.4           # computação numérica com arrays; base para pandas, scikit-learn e operações matriciais
+scikit-learn==1.8.0    # machine learning: treinamento e avaliação de modelos preditivos de churn
+matplotlib==3.10.9     # criação de gráficos e visualizações; base para seaborn
+seaborn==0.13.2        # visualizações estatísticas de alto nível para exploração e apresentação dos dados
+psycopg2-binary==2.9.12  # conector PostgreSQL; permite ao SQLAlchemy se comunicar com o banco de dados
+SQLAlchemy==2.0.49     # ORM e toolkit SQL para leitura e escrita de dados no banco relacional
+jupyter==1.1.1         # ambiente de notebooks interativos para análise exploratória e experimentação

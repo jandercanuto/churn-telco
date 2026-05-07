@@ -1,0 +1,114 @@
+anyio==4.13.0  # I/O assíncrono; dependência interna de httpx e jupyter_server
+argon2-cffi==25.1.0  # hashing seguro de senhas para autenticação do JupyterLab
+argon2-cffi-bindings==25.1.0  # bindings C para argon2-cffi
+arrow==1.4.0  # manipulação de datas e fusos horários
+asttokens==3.0.1  # rastreamento de tokens AST (dep IPython)
+async-lru==2.3.0  # cache LRU assíncrono (dep JupyterLab)
+attrs==26.1.0  # classes com atributos declarativos (dep jsonschema)
+babel==2.18.0  # internacionalização e formatação de datas (dep JupyterLab)
+beautifulsoup4==4.14.3  # parsing de HTML/XML para web scraping
+bleach==6.3.0  # sanitização de HTML (dep nbconvert)
+certifi==2026.4.22  # certificados SSL para requisições HTTP
+cffi==2.0.0  # interface C para Python (dep argon2)
+charset-normalizer==3.4.7  # detecção de codificação de texto (dep requests)
+comm==0.2.3  # protocolo de comunicação entre kernel e frontend (dep Jupyter)
+contourpy==1.3.3  # geração de contornos (dep matplotlib)
+cycler==0.12.1  # iteração de propriedades de gráficos (dep matplotlib)
+debugpy==1.8.20  # depurador Python (dep ipykernel/JupyterLab)
+decorator==5.2.1  # utilitário para decoradores Python
+defusedxml==0.7.1  # parsing seguro de XML contra ataques XXE (dep nbconvert)
+executing==2.2.1  # inspeção de código em execução (dep IPython)
+fastjsonschema==2.21.2  # validação rápida de JSON Schema (dep nbformat)
+fonttools==4.62.1  # manipulação de fontes (dep matplotlib)
+fqdn==1.5.1  # validação de FQDNs (dep jsonschema)
+greenlet==3.5.0  # corrotinas leves (dep SQLAlchemy)
+h11==0.16.0  # implementação HTTP/1.1 de baixo nível (dep httpcore)
+httpcore==1.0.9  # cliente HTTP de baixo nível (dep httpx)
+httpx==0.28.1  # cliente HTTP moderno e assíncrono (dep JupyterLab)
+idna==3.13  # suporte a domínios internacionalizados (dep requests)
+ipykernel==7.2.0  # kernel IPython para execução de código nos notebooks Jupyter
+ipython==9.13.0  # shell Python interativo e avançado; base do ambiente Jupyter
+ipython_pygments_lexers==1.1.1  # lexers de syntax highlight para IPython
+ipywidgets==8.1.8  # widgets interativos nos notebooks Jupyter
+isoduration==20.11.0  # parsing de durações ISO 8601 (dep jsonschema)
+jedi==0.20.0  # autocompletar e análise de código (dep IPython)
+Jinja2==3.1.6  # template engine para geração de HTML/texto (dep nbconvert e Jupyter)
+joblib==1.5.3  # paralelismo e persistência de modelos scikit-learn
+json5==0.14.0  # parser JSON5 com suporte a comentários (dep jupyterlab_server)
+jsonpointer==3.1.1  # navegação em documentos JSON (dep jsonschema)
+jsonschema==4.26.0  # validação de esquemas JSON (dep Jupyter e nbformat)
+jsonschema-specifications==2025.9.1  # especificações JSON Schema (dep jsonschema)
+jupyter==1.1.1  # metapacote principal do ecossistema Jupyter
+jupyter-console==6.6.3  # console interativo do Jupyter no terminal
+jupyter-events==0.12.1  # sistema de eventos do servidor Jupyter
+jupyter-lsp==2.3.1  # Language Server Protocol para JupyterLab (autocompletar avançado)
+jupyter_client==8.8.0  # protocolo de comunicação com kernels Jupyter
+jupyter_core==5.9.1  # funcionalidades centrais compartilhadas do ecossistema Jupyter
+jupyter_server==2.18.1  # servidor backend do JupyterLab
+jupyter_server_terminals==0.5.4  # suporte a terminais no servidor Jupyter
+jupyterlab==4.5.7  # IDE web interativa para notebooks, código e dados
+jupyterlab_pygments==0.3.0  # tema Pygments para JupyterLab
+jupyterlab_server==2.28.0  # servidor base do JupyterLab
+jupyterlab_widgets==3.0.16  # widgets do JupyterLab (integração ipywidgets)
+kiwisolver==1.5.0  # solver de restrições geométricas (dep matplotlib)
+lark==1.3.1  # parser de gramáticas (dep jsonschema)
+MarkupSafe==3.0.3  # strings seguras para templates Jinja2
+matplotlib==3.10.9  # biblioteca principal para criação de gráficos e visualizações
+matplotlib-inline==0.2.1  # exibição inline de gráficos matplotlib em notebooks
+mistune==3.2.1  # parser Markdown de alta performance (dep nbconvert)
+nbclient==0.10.4  # execução programática de notebooks Jupyter
+nbconvert==7.17.1  # conversão de notebooks para HTML, PDF, scripts, etc.
+nbformat==5.10.4  # formato de arquivo dos notebooks Jupyter (.ipynb)
+nest-asyncio==1.6.0  # permite loops de eventos assíncronos aninhados (dep Jupyter)
+notebook==7.5.6  # interface web clássica de notebooks Jupyter
+notebook_shim==0.2.4  # compatibilidade entre versões do Jupyter Notebook
+numpy==2.4.4  # computação numérica com arrays e operações matriciais; base do ecossistema científico Python
+packaging==26.2  # parse e comparação de versões de pacotes Python
+pandas==3.0.2  # manipulação e análise de dados em DataFrames; central para leitura e tratamento dos dados de churn
+pandocfilters==1.5.1  # filtros para conversão de documentos via Pandoc (dep nbconvert)
+parso==0.8.7  # parser Python (dep jedi)
+pexpect==4.9.0  # controle de processos interativos no terminal (dep IPython)
+pillow==12.2.0  # processamento e manipulação de imagens
+platformdirs==4.9.6  # localização de diretórios padrão do sistema (dep Jupyter)
+prometheus_client==0.25.0  # métricas e monitoramento (dep jupyter_server)
+prompt_toolkit==3.0.52  # linha de comando interativa e colorida (dep IPython)
+psutil==7.2.2  # monitoramento de processos e recursos do sistema (dep ipykernel)
+psycopg2-binary==2.9.12  # conector PostgreSQL para Python; usado pelo SQLAlchemy para acessar o banco de dados
+ptyprocess==0.7.0  # controle de processos via pseudo-terminal (dep pexpect)
+pure_eval==0.2.3  # avaliação segura de expressões Python (dep stack-data/IPython)
+pycparser==3.0  # parser C em Python puro (dep cffi)
+Pygments==2.20.0  # syntax highlighting para código-fonte
+pyparsing==3.3.2  # biblioteca de parsing de texto (dep matplotlib e packaging)
+python-dateutil==2.9.0.post0  # extensões para parsing e manipulação de datas (dep pandas)
+python-json-logger==4.1.0  # formatação de logs em JSON (dep jupyter-events)
+PyYAML==6.0.3  # parsing e geração de arquivos YAML
+pyzmq==27.1.0  # bindings ZeroMQ para comunicação entre kernel e Jupyter (dep ipykernel)
+referencing==0.37.0  # resolução de referências JSON Schema (dep jsonschema)
+requests==2.33.1  # requisições HTTP simples e elegantes
+rfc3339-validator==0.1.4  # validação de datas RFC 3339 (dep jsonschema)
+rfc3986-validator==0.1.1  # validação de URIs RFC 3986 (dep jsonschema)
+rfc3987-syntax==1.1.0  # validação de IRIs RFC 3987 (dep jsonschema)
+rpds-py==0.30.0  # estruturas de dados persistentes (dep jsonschema/referencing)
+scikit-learn==1.8.0  # machine learning: classificação, regressão, clustering e pré-processamento de dados
+scipy==1.17.1  # computação científica: estatística, álgebra linear e otimização
+seaborn==0.13.2  # visualizações estatísticas de alto nível baseadas em matplotlib
+Send2Trash==2.1.0  # mover arquivos para a lixeira com segurança (dep notebook)
+setuptools==82.0.1  # ferramentas de empacotamento Python
+six==1.17.0  # compatibilidade Python 2/3 (dep legado)
+soupsieve==2.8.3  # seletor CSS para BeautifulSoup
+SQLAlchemy==2.0.49  # ORM e toolkit SQL para acesso a bancos de dados relacionais
+stack-data==0.6.3  # extração de dados do stack de execução para tracebacks (dep IPython)
+terminado==0.18.1  # backend de terminal web (dep jupyter_server_terminals)
+threadpoolctl==3.6.0  # controle de threads em bibliotecas nativas (dep scikit-learn)
+tinycss2==1.4.0  # parser CSS (dep bleach)
+tornado==6.5.5  # servidor web assíncrono (dep Jupyter/ipykernel)
+traitlets==5.14.3  # sistema de configuração de objetos com tipos (dep IPython/Jupyter)
+typing_extensions==4.15.0  # backport de typing avançado para versões antigas do Python
+tzdata==2026.2  # banco de dados de fusos horários
+uri-template==1.3.0  # expansão de templates URI (dep jsonschema)
+urllib3==2.6.3  # cliente HTTP de baixo nível (dep requests)
+wcwidth==0.7.0  # largura de caracteres Unicode no terminal (dep prompt_toolkit)
+webcolors==25.10.0  # nomes de cores CSS (dep jsonschema)
+webencodings==0.5.1  # codificações de caracteres para HTML (dep bleach)
+websocket-client==1.9.0  # cliente WebSocket (dep jupyter_server)
+widgetsnbextension==4.0.15  # extensão de widgets para Jupyter Notebook clássico
